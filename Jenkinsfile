@@ -8,7 +8,7 @@ pipeline {
         skipStagesAfterUnstable()
     }
     stages {
-        stage('Build') { 
+        stage('Echo') { 
             steps { 
                 echo 'this is a minimal pipeline.' 
             }
